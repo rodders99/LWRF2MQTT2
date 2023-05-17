@@ -1,0 +1,20 @@
+// Setup Wifi Credentials
+const char *SSID = "<your_ssid>";
+const char *PWD = "Your_wifi_password";
+
+// Setup MQTT Parameters
+const char *mqttServer = "192.168.55.54";
+const unsigned int mqttPort = 1883;
+const char* mqtt_user = "";
+const char* mqtt_password = "";
+
+const char* mqtt_id = "dev" ; 
+const char* mqtt_topic = "home/433toMQTT";
+const char* OTApwd = "admin";
+const char* mqtt_lwt_topic = "home/lwrf2mqtt/status";
+
+// Define 433 RF Receiver Pin 
+
+#define RX_PIN D3
+
+
