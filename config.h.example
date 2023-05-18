@@ -1,6 +1,6 @@
 // Setup Wifi Credentials
 const char *SSID = "<your_ssid>";
-const char *PWD = "Your_wifi_password";
+const char *PWD = "<Your_wifi_password>";
 
 // Setup MQTT Parameters
 const char *mqttServer = "192.168.55.54";
