@@ -8,10 +8,10 @@ const unsigned int mqttPort = 1883;
 const char* mqtt_user = "";
 const char* mqtt_password = "";
 
-const char* mqtt_id = "dev" ; 
-const char* mqtt_topic = "home/433toMQTT";
-const char* OTApwd = "admin";
-const char* mqtt_lwt_topic = "home/lwrf2mqtt/status";
+const char* mqtt_id = "dev" ;                 // This is the MQTT Client ID
+const char* mqtt_topic = "home/433toMQTT";    // This is the topic published by this app
+const char* OTApwd = "admin";                 // Password for Arduino OTA updates
+const char* mqtt_lwt_topic = "home/lwrf2mqtt/status";  // Last Will topic (status online/offline)
 
 // Define 433 RF Receiver Pin 
 
