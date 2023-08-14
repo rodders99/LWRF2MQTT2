@@ -1,7 +1,7 @@
 # LightwaveRF to MQTT receiver. 
 
 This app sniffs the legacy Gen 1 LightwaveRF device identifiers sent by the hub or remote controls over 433Mhz RF and sends them over MQTT on the selected topic. This  can then be used within a Home Automation automation script to change the device state when these devices are triggered.
-Specifically this is setup for Home Assistant but it;s pretty straightforward to edit the code for other Home Automation platforms. 
+Specifically this is setup for Home Assistant but it's pretty straightforward to edit the code for other Home Automation platforms. 
 
 Please note this won't work with LightwaveRF Gen2 devices which use 868Mhz RF and are two way anyway.
 
